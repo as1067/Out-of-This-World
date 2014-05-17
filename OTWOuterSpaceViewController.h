@@ -1,5 +1,5 @@
 //
-//  OTWViewController.h
+//  OTWOuterSpaceViewController.h
 //  Out of This World
 //
 //  Created by Monika Gorkani on 5/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OTWViewController : UIViewController
+@interface OTWOuterSpaceViewController : UITableViewController
 
 @end
