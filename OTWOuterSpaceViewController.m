@@ -54,6 +54,7 @@
     [self.planets addObject:planet8];
     [self.planets addObject:planet9];
     
+    NSLog(@"HI");
 }
 
 - (void)didReceiveMemoryWarning
