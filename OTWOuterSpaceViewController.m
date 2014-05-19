@@ -34,6 +34,15 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.planets = [[NSMutableArray alloc] init];
     
+    NSString *planet1 = @"Mercury";
+    NSString *planet2 = @"Venus";
+    NSString *planet3 = @"The Earth";
+    NSString *planet4 = @"Mars";
+    NSString *planet5 = @"Jupiter";
+    NSString *planet6 = @"Saturn";
+    NSString *planet7 = @"Uranus";
+    NSString *planet8 = @"Neptune";
+    NSString *planet9 = @"R.I.P Pluto 1930 - 2006";
 }
 
 - (void)didReceiveMemoryWarning
