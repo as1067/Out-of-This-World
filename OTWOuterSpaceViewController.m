@@ -59,6 +59,7 @@
     [myDictionary setObject:firstColor forKey:@"firetruck color"];
     [myDictionary setObject:@"blue" forKey:@"ocean color"];
     [myDictionary setObject:@"yellow" forKey:@"star color"];
+    [myDictionary setObject:@"Eddy" forKey:@"yellow"];
     
     NSLog(@"%@", myDictionary);
     
