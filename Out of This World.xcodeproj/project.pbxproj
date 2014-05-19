@@ -15,13 +15,13 @@
 		5D72C1741927D9E200A6402A /* OTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C1731927D9E200A6402A /* OTWAppDelegate.m */; };
 		5D72C1771927D9E200A6402A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C1751927D9E200A6402A /* Main_iPhone.storyboard */; };
 		5D72C17A1927D9E200A6402A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C1781927D9E200A6402A /* Main_iPad.storyboard */; };
-		5D72C17D1927D9E200A6402A /* OTWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C17C1927D9E200A6402A /* OTWViewController.m */; };
 		5D72C17F1927D9E200A6402A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C17E1927D9E200A6402A /* Images.xcassets */; };
 		5D72C1861927D9E200A6402A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1851927D9E200A6402A /* XCTest.framework */; };
 		5D72C1871927D9E200A6402A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1631927D9E200A6402A /* Foundation.framework */; };
 		5D72C1881927D9E200A6402A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1671927D9E200A6402A /* UIKit.framework */; };
 		5D72C1901927D9E200A6402A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C18E1927D9E200A6402A /* InfoPlist.strings */; };
 		5D72C1921927D9E200A6402A /* Out_of_This_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C1911927D9E200A6402A /* Out_of_This_WorldTests.m */; };
+		5D72C19D1927DAB200A6402A /* OTWOuterSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C19C1927DAB200A6402A /* OTWOuterSpaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		5D72C1731927D9E200A6402A /* OTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTWAppDelegate.m; sourceTree = "<group>"; };
 		5D72C1761927D9E200A6402A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5D72C1791927D9E200A6402A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		5D72C17B1927D9E200A6402A /* OTWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTWViewController.h; sourceTree = "<group>"; };
-		5D72C17C1927D9E200A6402A /* OTWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTWViewController.m; sourceTree = "<group>"; };
 		5D72C17E1927D9E200A6402A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5D72C1841927D9E200A6402A /* Out of This WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of This WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D72C1851927D9E200A6402A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5D72C18D1927D9E200A6402A /* Out of This WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of This WorldTests-Info.plist"; sourceTree = "<group>"; };
 		5D72C18F1927D9E200A6402A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D72C1911927D9E200A6402A /* Out_of_This_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_This_WorldTests.m; sourceTree = "<group>"; };
+		5D72C19B1927DAB200A6402A /* OTWOuterSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTWOuterSpaceViewController.h; path = ../OTWOuterSpaceViewController.h; sourceTree = "<group>"; };
+		5D72C19C1927DAB200A6402A /* OTWOuterSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTWOuterSpaceViewController.m; path = ../OTWOuterSpaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				5D72C1731927D9E200A6402A /* OTWAppDelegate.m */,
 				5D72C1751927D9E200A6402A /* Main_iPhone.storyboard */,
 				5D72C1781927D9E200A6402A /* Main_iPad.storyboard */,
-				5D72C17B1927D9E200A6402A /* OTWViewController.h */,
-				5D72C17C1927D9E200A6402A /* OTWViewController.m */,
+				5D72C19B1927DAB200A6402A /* OTWOuterSpaceViewController.h */,
+				5D72C19C1927DAB200A6402A /* OTWOuterSpaceViewController.m */,
 				5D72C17E1927D9E200A6402A /* Images.xcassets */,
 				5D72C16A1927D9E200A6402A /* Supporting Files */,
 			);
@@ -254,8 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D72C19D1927DAB200A6402A /* OTWOuterSpaceViewController.m in Sources */,
 				5D72C1701927D9E200A6402A /* main.m in Sources */,
-				5D72C17D1927D9E200A6402A /* OTWViewController.m in Sources */,
 				5D72C1741927D9E200A6402A /* OTWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
