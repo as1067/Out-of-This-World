@@ -62,7 +62,8 @@
     
     
     NSLog(@"%@", myDictionary);
-    
+    NSString *blueString = [myDictionary objectForKey:@"ocean color"];
+    NSLog(@"%@", blueString)
     
     
 }
