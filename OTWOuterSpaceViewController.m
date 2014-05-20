@@ -2,7 +2,7 @@
 //  OTWOuterSpaceViewController.m
 //  Out of This World
 //
-//  Created by Monika Gorkani on 5/17/14.
+//  Created by Cyrus Tau on 5/17/14.
 //  Copyright (c) 2014 Cyrus. All rights reserved.
 //
 
@@ -54,16 +54,16 @@
     [self.planets addObject:planet8];
     [self.planets addObject:planet9];
     
-    NSMutableDictionary *myDictionary = [[NSMutableDictionary alloc]init];
-    NSString *firstColor = @"red";
-    [myDictionary setObject:firstColor forKey:@"firetruck color"];
-    [myDictionary setObject:@"blue" forKey:@"ocean color"];
-    [myDictionary setObject:@"yellow" forKey:@"star color"];
-    
-    
-    NSLog(@"%@", myDictionary);
-    NSString *blueString = [myDictionary objectForKey:@"ocean color"];
-    NSLog(@"%@", blueString)
+//    NSMutableDictionary *myDictionary = [[NSMutableDictionary alloc]init];
+//    NSString *firstColor = @"red";
+//    [myDictionary setObject:firstColor forKey:@"firetruck color"];
+//    [myDictionary setObject:@"blue" forKey:@"ocean color"];
+//    [myDictionary setObject:@"yellow" forKey:@"star color"];
+//    
+//    
+//    NSLog(@"%@", myDictionary);
+//    NSString *blueString = [myDictionary objectForKey:@"ocean color"];
+//    NSLog(@"%@", blueString);
     
     
 }

@@ -22,6 +22,7 @@
 		5D72C1901927D9E200A6402A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C18E1927D9E200A6402A /* InfoPlist.strings */; };
 		5D72C1921927D9E200A6402A /* Out_of_This_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C1911927D9E200A6402A /* Out_of_This_WorldTests.m */; };
 		5D72C19D1927DAB200A6402A /* OTWOuterSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C19C1927DAB200A6402A /* OTWOuterSpaceViewController.m */; };
+		5DE0E08E192B16460087EC14 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0E08D192B16460087EC14 /* AstronomicalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		5D72C1911927D9E200A6402A /* Out_of_This_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_This_WorldTests.m; sourceTree = "<group>"; };
 		5D72C19B1927DAB200A6402A /* OTWOuterSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTWOuterSpaceViewController.h; path = ../OTWOuterSpaceViewController.h; sourceTree = "<group>"; };
 		5D72C19C1927DAB200A6402A /* OTWOuterSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTWOuterSpaceViewController.m; path = ../OTWOuterSpaceViewController.m; sourceTree = "<group>"; };
+		5DE0E08C192B16460087EC14 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		5DE0E08D192B16460087EC14 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 		5D72C16A1927D9E200A6402A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DE0E08C192B16460087EC14 /* AstronomicalData.h */,
+				5DE0E08D192B16460087EC14 /* AstronomicalData.m */,
 				5D72C16B1927D9E200A6402A /* Out of This World-Info.plist */,
 				5D72C16C1927D9E200A6402A /* InfoPlist.strings */,
 				5D72C16F1927D9E200A6402A /* main.m */,
@@ -257,6 +262,7 @@
 				5D72C19D1927DAB200A6402A /* OTWOuterSpaceViewController.m in Sources */,
 				5D72C1701927D9E200A6402A /* main.m in Sources */,
 				5D72C1741927D9E200A6402A /* OTWAppDelegate.m in Sources */,
+				5DE0E08E192B16460087EC14 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				5D72C1971927D9E200A6402A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D72C1981927D9E200A6402A /* Build configuration list for PBXNativeTarget "Out of This WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				5D72C19A1927D9E200A6402A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
