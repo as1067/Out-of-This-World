@@ -155,6 +155,8 @@
 		5D72C16A1927D9E200A6402A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DE0E08C192B16460087EC14 /* AstronomicalData.h */,
+				5DE0E08D192B16460087EC14 /* AstronomicalData.m */,
 				5D14923D192DB9660036FE5C /* mercury-image.jpg */,
 				5D149247192DB98D0036FE5C /* venus_magellan.jpg */,
 				5D149244192DB97B0036FE5C /* Earth.png */,
@@ -164,8 +166,6 @@
 				5D149246192DB98D0036FE5C /* uranus_photo.jpg */,
 				5D14923E192DB9660036FE5C /* neptune.jpg */,
 				5D14923F192DB9660036FE5C /* Pluto_Design-the-Planet.jpg */,
-				5DE0E08C192B16460087EC14 /* AstronomicalData.h */,
-				5DE0E08D192B16460087EC14 /* AstronomicalData.m */,
 				5D72C16B1927D9E200A6402A /* Out of This World-Info.plist */,
 				5D72C16C1927D9E200A6402A /* InfoPlist.strings */,
 				5D72C16F1927D9E200A6402A /* main.m */,

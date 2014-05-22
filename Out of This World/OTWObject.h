@@ -10,4 +10,16 @@
 
 @interface OTWObject : NSObject
 
+@property (strong, nonatomic) NSString *name;
+@property (nonatomic) float gravatationalPull;
+@property (nonatomic) float diamater;
+@property (nonatomic) float yearLength;
+@property (nonatomic) float dayLength;
+@property (nonatomic) float temperature;
+@property (nonatomic) int numberOfMoons;
+@property (strong, nonatomic) NSString *nickname;
+@property (strong, nonatomic) NSString *intrestingFact;
+
+-(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image;
+
 @end
