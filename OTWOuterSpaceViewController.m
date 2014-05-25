@@ -7,6 +7,8 @@
 //
 
 #import "OTWOuterSpaceViewController.h"
+#import "AstronomicalData.h"
+#import "OTWObject.h"
 
 @interface OTWOuterSpaceViewController ()
 
@@ -32,19 +34,16 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+   
     
-    NSString *planet1 = @"Mercury";
-    NSString *planet2 = @"Venus";
-    NSString *planet3 = @"The Earth";
-    NSString *planet4 = @"Mars";
-    NSString *planet5 = @"Jupiter";
-    NSString *planet6 = @"Saturn";
-    NSString *planet7 = @"Uranus";
-    NSString *planet8 = @"Neptune";
-    NSString *planet9 = @"R.I.P Pluto 1930 - 2006";
+    self.planets = [[NSMutableArray alloc] init];
+    for (NSMutableDictionary *planetData in [AstronomicalData allKnownPlanets])
+    {
+        NSString *imageName = [NSString stringWithFormat:@"%@.jpg",planetData [PLANET_NAME]];
+        OTWObject *planet =[[OTWObject alloc]initWithData:planetData andImage:[UIImage imageNamed:imageName]];
+        [self.planets addObject:planet];
+    }
     
-    self.planets = [[NSMutableArray alloc] initWithObjects:planet1, planet2, planet3, planet4, planet5, planet5, planet6, planet7, planet8, planet9, nil];
-
     
 //    [self.planets addObject:planet1];
 //    [self.planets addObject:planet2];
@@ -102,13 +101,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = [self.planets objectAtIndex:indexPath.row];
-    if (indexPath.section == 0) {
-    cell.backgroundColor = [UIColor redColor];}
-    else {
-        cell.backgroundColor = [UIColor blueColor];
-    }
-    
+    OTWObject *planet = [self.planets objectAtIndex:indexPath.row];
+    cell.textLabel.text = planet.name;
     return cell;
 }
 

@@ -45,21 +45,21 @@
     return [planetInformation copy];
 }
 
-+ (NSArray *)otherAstronomicalBodies
-{
-    NSMutableArray *astronomicalBodyInformation = [@[] mutableCopy];
-    
-    NSDictionary *sunDictionary = @{PLANET_NAME : @"Sun", PLANET_GRAVITY : @274, PLANET_DIAMETER : @1391000, PLANET_TEMPERATURE : @5505, PLANET_NICKNAME : @"Helios"};
-    [astronomicalBodyInformation addObject:sunDictionary];
-    
-    NSDictionary *moonDictionary = @{PLANET_NAME : @"Moon", PLANET_GRAVITY : @1.6, PLANET_DIAMETER : @3475, PLANET_YEAR_LENGTH : @27.3, PLANET_TEMPERATURE : @-20, PLANET_NUMBER_OF_MOONS : @0, PLANET_NICKNAME : @"Selene"};
-    [astronomicalBodyInformation addObject:moonDictionary];
-    
-    NSDictionary *internationalSpaceStation = @{PLANET_NAME : @"International Space Station", PLANET_NICKNAME : @"No Nickname"};
-    [astronomicalBodyInformation addObject:internationalSpaceStation];
-    
-    
-    return astronomicalBodyInformation;
-}
+//+ (NSArray *)otherAstronomicalBodies
+//{
+//    NSMutableArray *astronomicalBodyInformation = [@[] mutableCopy];
+//    
+//    NSDictionary *sunDictionary = @{PLANET_NAME : @"Sun", PLANET_GRAVITY : @274, PLANET_DIAMETER : @1391000, PLANET_TEMPERATURE : @5505, PLANET_NICKNAME : @"Helios"};
+//    [astronomicalBodyInformation addObject:sunDictionary];
+//    
+//    NSDictionary *moonDictionary = @{PLANET_NAME : @"Moon", PLANET_GRAVITY : @1.6, PLANET_DIAMETER : @3475, PLANET_YEAR_LENGTH : @27.3, PLANET_TEMPERATURE : @-20, PLANET_NUMBER_OF_MOONS : @0, PLANET_NICKNAME : @"Selene"};
+//    [astronomicalBodyInformation addObject:moonDictionary];
+//    
+//    NSDictionary *internationalSpaceStation = @{PLANET_NAME : @"International Space Station", PLANET_NICKNAME : @"No Nickname"};
+//    [astronomicalBodyInformation addObject:internationalSpaceStation];
+//    
+//    
+//    return astronomicalBodyInformation;
+//}
 
 @end

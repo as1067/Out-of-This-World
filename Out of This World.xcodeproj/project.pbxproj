@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D149240192DB9660036FE5C /* Jupiter core 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923C192DB9660036FE5C /* Jupiter core 2.jpg */; };
-		5D149241192DB9660036FE5C /* mercury-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923D192DB9660036FE5C /* mercury-image.jpg */; };
-		5D149242192DB9660036FE5C /* neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923E192DB9660036FE5C /* neptune.jpg */; };
-		5D149243192DB9660036FE5C /* Pluto_Design-the-Planet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923F192DB9660036FE5C /* Pluto_Design-the-Planet.jpg */; };
-		5D149245192DB97B0036FE5C /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D149244192DB97B0036FE5C /* Earth.png */; };
-		5D149249192DB98D0036FE5C /* uranus_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149246192DB98D0036FE5C /* uranus_photo.jpg */; };
-		5D14924A192DB98D0036FE5C /* venus_magellan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149247192DB98D0036FE5C /* venus_magellan.jpg */; };
-		5D14924B192DB98D0036FE5C /* Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149248192DB98D0036FE5C /* Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg */; };
+		5D149240192DB9660036FE5C /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923C192DB9660036FE5C /* Jupiter.jpg */; };
+		5D149241192DB9660036FE5C /* Mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923D192DB9660036FE5C /* Mercury.jpg */; };
+		5D149242192DB9660036FE5C /* Neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923E192DB9660036FE5C /* Neptune.jpg */; };
+		5D149243192DB9660036FE5C /* RIP Pluto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14923F192DB9660036FE5C /* RIP Pluto.jpg */; };
+		5D149249192DB98D0036FE5C /* Uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149246192DB98D0036FE5C /* Uranus.jpg */; };
+		5D14924A192DB98D0036FE5C /* Venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149247192DB98D0036FE5C /* Venus.jpg */; };
+		5D14924B192DB98D0036FE5C /* Mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D149248192DB98D0036FE5C /* Mars.jpg */; };
 		5D14924D192DB9CE0036FE5C /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D14924C192DB9CE0036FE5C /* Saturn.jpg */; };
 		5D149250192DBA280036FE5C /* OTWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D14924F192DBA280036FE5C /* OTWObject.m */; };
+		5D1492521931AF160036FE5C /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D1492511931AF160036FE5C /* Earth.jpg */; };
 		5D72C1641927D9E200A6402A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1631927D9E200A6402A /* Foundation.framework */; };
 		5D72C1661927D9E200A6402A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1651927D9E200A6402A /* CoreGraphics.framework */; };
 		5D72C1681927D9E200A6402A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1671927D9E200A6402A /* UIKit.framework */; };
@@ -46,17 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D14923C192DB9660036FE5C /* Jupiter core 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jupiter core 2.jpg"; sourceTree = "<group>"; };
-		5D14923D192DB9660036FE5C /* mercury-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mercury-image.jpg"; sourceTree = "<group>"; };
-		5D14923E192DB9660036FE5C /* neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptune.jpg; sourceTree = "<group>"; };
-		5D14923F192DB9660036FE5C /* Pluto_Design-the-Planet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pluto_Design-the-Planet.jpg"; sourceTree = "<group>"; };
-		5D149244192DB97B0036FE5C /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
-		5D149246192DB98D0036FE5C /* uranus_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus_photo.jpg; sourceTree = "<group>"; };
-		5D149247192DB98D0036FE5C /* venus_magellan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venus_magellan.jpg; sourceTree = "<group>"; };
-		5D149248192DB98D0036FE5C /* Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg; sourceTree = "<group>"; };
+		5D14923C192DB9660036FE5C /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		5D14923D192DB9660036FE5C /* Mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury.jpg; sourceTree = "<group>"; };
+		5D14923E192DB9660036FE5C /* Neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neptune.jpg; sourceTree = "<group>"; };
+		5D14923F192DB9660036FE5C /* RIP Pluto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RIP Pluto.jpg"; sourceTree = "<group>"; };
+		5D149246192DB98D0036FE5C /* Uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uranus.jpg; sourceTree = "<group>"; };
+		5D149247192DB98D0036FE5C /* Venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Venus.jpg; sourceTree = "<group>"; };
+		5D149248192DB98D0036FE5C /* Mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars.jpg; sourceTree = "<group>"; };
 		5D14924C192DB9CE0036FE5C /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
 		5D14924E192DBA280036FE5C /* OTWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTWObject.h; sourceTree = "<group>"; };
 		5D14924F192DBA280036FE5C /* OTWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTWObject.m; sourceTree = "<group>"; };
+		5D1492511931AF160036FE5C /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
 		5D72C1601927D9E200A6402A /* Out of This World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of This World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D72C1631927D9E200A6402A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D72C1651927D9E200A6402A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,15 +157,15 @@
 			children = (
 				5DE0E08C192B16460087EC14 /* AstronomicalData.h */,
 				5DE0E08D192B16460087EC14 /* AstronomicalData.m */,
-				5D14923D192DB9660036FE5C /* mercury-image.jpg */,
-				5D149247192DB98D0036FE5C /* venus_magellan.jpg */,
-				5D149244192DB97B0036FE5C /* Earth.png */,
-				5D149248192DB98D0036FE5C /* Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg */,
-				5D14923C192DB9660036FE5C /* Jupiter core 2.jpg */,
+				5D14923D192DB9660036FE5C /* Mercury.jpg */,
+				5D149247192DB98D0036FE5C /* Venus.jpg */,
+				5D1492511931AF160036FE5C /* Earth.jpg */,
+				5D149248192DB98D0036FE5C /* Mars.jpg */,
+				5D14923C192DB9660036FE5C /* Jupiter.jpg */,
 				5D14924C192DB9CE0036FE5C /* Saturn.jpg */,
-				5D149246192DB98D0036FE5C /* uranus_photo.jpg */,
-				5D14923E192DB9660036FE5C /* neptune.jpg */,
-				5D14923F192DB9660036FE5C /* Pluto_Design-the-Planet.jpg */,
+				5D149246192DB98D0036FE5C /* Uranus.jpg */,
+				5D14923E192DB9660036FE5C /* Neptune.jpg */,
+				5D14923F192DB9660036FE5C /* RIP Pluto.jpg */,
 				5D72C16B1927D9E200A6402A /* Out of This World-Info.plist */,
 				5D72C16C1927D9E200A6402A /* InfoPlist.strings */,
 				5D72C16F1927D9E200A6402A /* main.m */,
@@ -269,18 +269,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D149249192DB98D0036FE5C /* uranus_photo.jpg in Resources */,
+				5D149249192DB98D0036FE5C /* Uranus.jpg in Resources */,
 				5D72C17A1927D9E200A6402A /* Main_iPad.storyboard in Resources */,
-				5D149241192DB9660036FE5C /* mercury-image.jpg in Resources */,
+				5D149241192DB9660036FE5C /* Mercury.jpg in Resources */,
 				5D72C17F1927D9E200A6402A /* Images.xcassets in Resources */,
-				5D14924A192DB98D0036FE5C /* venus_magellan.jpg in Resources */,
-				5D149245192DB97B0036FE5C /* Earth.png in Resources */,
-				5D149240192DB9660036FE5C /* Jupiter core 2.jpg in Resources */,
+				5D1492521931AF160036FE5C /* Earth.jpg in Resources */,
+				5D14924A192DB98D0036FE5C /* Venus.jpg in Resources */,
+				5D149240192DB9660036FE5C /* Jupiter.jpg in Resources */,
 				5D72C1771927D9E200A6402A /* Main_iPhone.storyboard in Resources */,
-				5D149242192DB9660036FE5C /* neptune.jpg in Resources */,
-				5D149243192DB9660036FE5C /* Pluto_Design-the-Planet.jpg in Resources */,
+				5D149242192DB9660036FE5C /* Neptune.jpg in Resources */,
+				5D149243192DB9660036FE5C /* RIP Pluto.jpg in Resources */,
 				5D72C16E1927D9E200A6402A /* InfoPlist.strings in Resources */,
-				5D14924B192DB98D0036FE5C /* Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg in Resources */,
+				5D14924B192DB98D0036FE5C /* Mars.jpg in Resources */,
 				5D14924D192DB9CE0036FE5C /* Saturn.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
