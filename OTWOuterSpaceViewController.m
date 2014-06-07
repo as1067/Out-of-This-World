@@ -42,9 +42,24 @@
         NSString *imageName = [NSString stringWithFormat:@"%@.jpg",planetData [PLANET_NAME]];
         OTWObject *planet =[[OTWObject alloc]initWithData:planetData andImage:[UIImage imageNamed:imageName]];
         [self.planets addObject:planet];
+    
+  
     }
-    
-    
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UITableViewCell class]])
+    {
+        if ([segue.destinationViewController isKindOfClass:[OTWOuterSpaceViewController class]])
+        {
+            OTWOuterSpaceViewController *nextViewController = segue.destinationViewController;
+            NSIndexPath *path = [self.tableView indexPathForCell:sender];
+            OTWObject *selectedObject =[self.planets objectAtIndex:path.row];
+            nextViewController.spaceObject = selectedObject;
+        }
+    }
+}
+
 //    [self.planets addObject:planet1];
 //    [self.planets addObject:planet2];
 //    [self.planets addObject:planet3];
@@ -67,7 +82,7 @@
 //    NSLog(@"%@", blueString);
     
     
-}
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -23,5 +23,6 @@
 @property (strong, nonatomic) UIImage *spaceImage;
 
 -(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image;
+@property (strong, nonatomic) OTWObject *spaceObject;
 
 @end

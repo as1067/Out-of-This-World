@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OTWObject.h"
+
 
 @interface OTWOuterSpaceViewController : UITableViewController
 
 @property (strong, nonatomic) NSMutableArray *planets;
+@property (strong, nonatomic) OTWObject *spaceObject;
 
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "OTWSpaceImageViewController.h"
+#import "OTWObject.h"
+#import "AstronomicalData.h"
+#import "OTWOuterSpaceViewController.h"
 
 @interface OTWSpaceImageViewController ()
 
@@ -23,12 +26,16 @@
     return self;
 }
 
+
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Jupiter.jpg"]];
-
+   
+    
+    self.imageView = [[UIImageView alloc] initWithImage:self.spaceObject.spaceImage];
     self.scrollView.contentSize = self.imageView.frame.size;
     [self.scrollView addSubview:self.imageView];
     self.scrollView.delegate = self;
@@ -36,7 +43,8 @@
     self.scrollView.minimumZoomScale = .5;
 }
 
-    
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
