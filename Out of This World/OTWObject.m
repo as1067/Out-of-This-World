@@ -8,6 +8,8 @@
 
 #import "OTWObject.h"
 #import "AstronomicalData.h"
+#import "OTWSpaceImageViewController.m"
+#import "OTWOuterSpaceViewController.h"
 
 @implementation OTWObject
 
@@ -30,7 +32,7 @@
     self.numberOfMoons = [data [PLANET_NUMBER_OF_MOONS] intValue];
     self.nickname = data[PLANET_NICKNAME];
     self.intrestingFact = data[PLANET_INTERESTING_FACT];
-    self.spaceImage = image;
+    self.spaceImage =  image ;
     return self;
 }
 @end
